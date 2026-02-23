@@ -17,7 +17,7 @@ export default function RootWrapper({children}: RootWrapperProps): JSX.Element {
   // Get backend URL from Docusaurus customFields or use default
   const backendUrl = 
     (typeof window !== 'undefined' && (window as any).siteConfig?.customFields?.backend_url) ||
-    'http://localhost:8000';
+    'https://ubaidraza1565-physical-ai-backend.hf.space';
 
   return (
     <>

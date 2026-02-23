@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://starcom.github.io',
+  url: 'https://github.com/UbaidRaza-1312/physical-ai-humanoid-robotics-with-rag-chatbot',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   customFields: {
-    back_end_url: 'http://localhost:8000/chat',
-    backend_url: 'http://localhost:8000',
+    back_end_url: 'https://ubaidraza1565-physical-ai-backend.hf.space/chat',
+    backend_url: 'https://ubaidraza1565-physical-ai-backend.hf.space',
   },
 
   // GitHub pages deployment config.
@@ -87,7 +87,7 @@ const config: Config = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/star-com/physical-ai-textbook',
+          href: 'https://github.com/UbaidRaza-1312/physical-ai-humanoid-robotics-with-rag-chatbot',
           label: 'GitHub',
           position: 'right',
           className: 'header-github-link',
@@ -140,20 +140,17 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/star-com/physical-ai-textbook',
+              href: 'https://github.com/UbaidRaza-1312',
             },
             {
               label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/ubaidraza/',
+              href: 'https://www.linkedin.com/in/ubaid-raza-831666300/',
             },
             {
               label: 'Instagram',
-              href: 'https://www.instagram.com/ubaidraza/',
+              href: 'https://www.instagram.com/ubaidraza_1565/',
             },
-            {
-              label: 'X (Twitter)',
-              href: 'https://x.com/docusaurus',
-            },
+            
           ],
         },
       ],

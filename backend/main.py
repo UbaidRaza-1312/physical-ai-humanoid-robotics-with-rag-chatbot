@@ -37,7 +37,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "http://localhost:8080",
+        "https://ubaidraza1565-physical-ai-backend.hf.space",
         "https://star-com.github.io",
         "*",  # Allow all origins for development
     ],

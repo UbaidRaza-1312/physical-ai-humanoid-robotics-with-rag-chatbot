@@ -40,7 +40,7 @@ interface ChatWidgetProps {
  * - Source citations for answers
  */
 export const ChatWidget: React.FC<ChatWidgetProps> = ({
-  backendUrl = 'http://localhost:8000',
+  backendUrl = 'https://ubaidraza1565-physical-ai-backend.hf.space',
   position = 'bottom-right',
 }) => {
   // State
